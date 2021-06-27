@@ -1,7 +1,5 @@
 .Navigation {
   display: flex;
-  /* justify-content: space-between; */
-  /* background-color: green; */
 }
 .Navigation__item {
   /* background-color: blue; */
@@ -13,7 +11,7 @@
 }
 
 .Navigation__item--active {
-  color: coral;
+  color: rgb(255, 80, 103);
 }
 
 .Navigation__item--normal {

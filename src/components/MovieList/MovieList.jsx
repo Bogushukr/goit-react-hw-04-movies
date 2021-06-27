@@ -27,11 +27,6 @@ class MovieList extends Component {
       <ul className={styles.MovieList}>
         {movies.map(({ id, title, poster_path }) => (
           <li key={id} className={styles.MovieList__item}>
-            <img
-              className={styles.MovieList__image}
-              src={getImagePath(poster_path, AVATAR_FALLBACK)}
-              alt={title}
-            />
             <Link
               className={styles.MovieList__title}
               to={{
