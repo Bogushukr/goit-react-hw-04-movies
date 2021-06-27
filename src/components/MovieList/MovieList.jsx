@@ -4,10 +4,7 @@ import { Link, withRouter } from "react-router-dom";
 
 import styles from "./MovieList.module.css";
 
-import { getImagePath } from "./../../api/apiService";
-
 import routes from "../../routes";
-const AVATAR_FALLBACK = "poster.jpg";
 
 class MovieList extends Component {
   static defaultProps = { movies: [] };
